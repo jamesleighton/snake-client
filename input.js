@@ -31,6 +31,9 @@ const setupInput = function(conn) {
       if (key === "s") {
         conn.write('Move: down');
       }
+      if (key === "n") {
+        conn.write('Say: yeAH!! BOI!!');
+      }
     }
   )};
 //handleUserInput();
